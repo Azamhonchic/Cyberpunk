@@ -1,0 +1,393 @@
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Archangelsk';
+
+    margin: 0px;
+    
+}
+body{
+    overflow-x: hidden
+}
+.hero {
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("./img/hero.png");
+    background-position: center;
+    background-size: cover;
+    transition: .8s ease;
+}
+.grids {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    width: 100%;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 40%;
+}
+
+
+.container {
+    width: 67%;
+    margin: 0 auto;
+}
+.thirdSection {
+    padding: 75px 15px 0 15px;
+    color: #ffff;
+}
+
+.head {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin-top: 65px;
+    margin-bottom: 30px;
+}
+
+.headTitle {
+    font-size: 62px;
+}
+
+.bgBlack {
+    height: 720px;
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+#in{
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #777777;
+    outline: none;
+    background-color: transparent;
+    font-size: 18px;
+    color: #777777;
+  
+}
+.inputs {
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #777777;
+    outline: none;
+    background-color: transparent;
+    font-size: 18px;
+    color: #777777;
+}
+
+.ps5 {
+    width: 60%;
+} 
+
+.description2 {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    width: 35%;
+  }
+.checkbox-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    user-select: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid #bbb;
+    width: 18px;
+    background-color: transparent;
+    height: 18px;
+  }
+  
+  
+  .checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+
+  
+  
+  .checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .checkbox-container .checkmark:after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid yellow;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+
+
+
+.subBtm {
+    padding: 15px 50px;
+    background-color: #F8F200;
+    font-size: 18px;
+    width: fit-content;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox-txt {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+
+.registr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blacpole {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.blur1 {
+    position: relative;
+    top: -8%;
+}
+
+.blur2 {
+    width: 100%;
+    position: relative;
+    top: 1%;
+}
+.onecont{
+    
+        width: 100%;
+        height: 895px;
+        margin-bottom: 70px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-top: 560px;
+}
+
+.learnMore {
+    border: none;
+    padding: 19px 50px;
+    align-items: center;
+    font-size: 24px;
+    background-color: black;
+    gap: 10px;
+    color: #F8F200;
+}
+.yellowdiv {
+    width: 624px;
+    height: 369px;
+    background-color: #F8F200;
+    clip-path: polygon(50px 0,100% 0,100% calc(100% - 50px), calc(100% - 50px) 100%,0 100%,0 50px);
+    font-size: 62px;
+    padding: 70px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.secondSection {
+    padding-top: 40px;
+    /* margin-bottom: 140px; */
+}
+.blur1 {
+    position: relative;
+    top: -8%;
+}
+
+.blur2 {
+    position: relative;
+    top: 1%;
+}
+
+.fourthSection {
+    padding-top: 54px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 100px;
+}
+
+.fourthLeft {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.fourthRight {
+    margin-top: 70px;
+    width: 50%;
+}
+
+.bgYellow {
+    height: 100%;
+    background-color:#F8F200;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.fourthH1 {
+    font-size: 62px;
+    margin-bottom: 25px;
+}
+
+.fourthdsc {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.raws {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 40px ;
+}
+
+.raw {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.learn {
+    padding: 15px 50px;
+    background-color: #000;
+    font-size: 18px;
+    color: #F8F200;
+    width: fit-content;
+}
+
+.fifthSection {
+    display: flex;
+    height: fit-content;
+}
+
+.right5 {
+    padding: 70px 32px;
+    color: white;
+    background-color: #000;
+    width: 100%;
+}
+
+.title {
+    font-size: 24px;
+    color: #52BEDC;
+    margin-bottom: 20px;
+}
+
+.title5 {
+    font-size: 62px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+footer {
+    padding: 13px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footLeft, .footRight {
+    display: flex;
+    gap: 32px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.last {
+    height: 40px;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+
+.komp {
+    width: 100%;
+}
+
+.ava2 {
+    width: 40px;
+}
+
+.ava1 {
+    width: 80px;
+}
+
+.ava3 {
+    width: 300px;
+}
+
+.ava {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.disksImg {
+    width: 100%;
+    height: 783px;
+    background-image: url("./img/disks.png");
+    background-position: center;
+    background-size: cover;
+}
